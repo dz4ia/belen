@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    height: 100vh;
+    height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -9,13 +9,13 @@ body {
 }
 .container {
     font-size: 6px;
-    width: 40em;
-    height: 40em;
+    width: -1em;
+    height: -1em;
     position: relative;
 }
 img{
-    height: 130%;
-    width: 130%;
+    height: 225%;
+    width: 225%;
 }
 .sun {
     display: flex;
@@ -47,34 +47,24 @@ img{
     border-radius: 50%;
 }
 .moon {
-    top: 25.5em;
-    left: 25.5em;
-    width: 30em;
-    height: 30em;
-    animation: orbit 2.8s linear infinite;
+    top: 10em;
+    left: 10em;
+    width: 60em;
+    height: 60em;
+    animation: orbit 5s linear infinite;
 }
-
-
-.mercury::before,
-.venus::before,
 .earth::before,
-.moon::before,
-.mars::before,
-.jupiter::before,
-.saturn::before,
-.uranus::before,
-.neptune::before,
-.pluto::before{
+.moon::before{
     content: '';
     position: absolute;
     border-radius: 50%;
     animation: orbit 30s linear infinite;
 }
 .moon::before {
-    top: 3em;
+    top: 1em;
     right: 1.6em;
-    width: 4em;
-    height: 4em;
+    width: 15em;
+    height: 15em;
     background-image: url('./images/moon.png');
     background-size: cover;
 }
