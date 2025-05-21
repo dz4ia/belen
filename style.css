@@ -22,8 +22,8 @@ img{
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 30em;
-    left: 30em;
+    top: -30em;
+    left: 80em;
     width: 20em;
     height: 20em;
     border-radius: 50%;
@@ -47,8 +47,8 @@ img{
     border-radius: 50%;
 }
 .moon {
-    top: 10em;
-    left: 10em;
+    top: -50em;
+    left: 60em;
     width: 60em;
     height: 60em;
     animation: orbit 5s linear infinite;
@@ -73,7 +73,7 @@ img{
 .star {
     position: absolute;
     background-color: white;
-    border-radius: 50%;
+    border-radius: 100%;
     z-index: -1;
 }
 
