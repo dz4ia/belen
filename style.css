@@ -23,7 +23,7 @@ img{
     justify-content: center;
     position: absolute;
     top: -30em;
-    left: 80em;
+    left: 100em;
     width: 20em;
     height: 20em;
     border-radius: 50%;
@@ -48,7 +48,7 @@ img{
 }
 .moon {
     top: -50em;
-    left: 60em;
+    left: 80em;
     width: 60em;
     height: 60em;
     animation: orbit 5s linear infinite;
